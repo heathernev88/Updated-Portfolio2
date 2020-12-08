@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(162, 201, 201);
+    
+}
+
+.about-me {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.blockquote {
+    float: right;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+img {
+    float:left;
+    margin-right: 10px;
+}
+nav {
+    background-color: rgb(17, 51, 95);
+    color: white;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;;
+}
+
+.media-body {
+    margin-left: 15px;
+}
+
+.active {
+    padding-right: 10px;
+}
+
+.center {
+    padding-right: 10px;
+}
+
+header {
+    
+}
+.nav-link {
+    color: white;
+    float: center;
+}
+
+.nav:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.media {
+    margin-top: 20px;
+}
+
+.mt-0 {
+    color: rgb(33, 87, 87)
+}
+
+.blockquote {
+    margin-right: 20px;
+}
+
+
+form {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.form-control {
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.card-img-1 {
+    height: 400px;
+}
+
+.card-img-2 {
+    height: 400px;
+    margin-top: 5px;
+}
+ .card-img-3 {
+    height: 400px;
+}
+
+.card-text-3 {
+    margin-bottom: 100px;
+ }
+
+.card-img-4 {
+    height: 400px;
+    padding-top: 15px;
+    
+}
+
+.card-title {
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.msg {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-bottom: 60px;
+}
+
+.avatar {
+    height: 100px;
+}

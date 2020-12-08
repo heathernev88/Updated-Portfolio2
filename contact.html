@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" text="style/css" href="homework2ss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+ 
+  <!-- Header that includes nav with links to my other pages -->
+    <div class="jumbotron">
+        <h1 class="display-4">Heather Nevarez</h1>
+
+        <nav class="nav">
+            
+            <a class="nav-link active" href="index.html">About</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+        
+           <!-- End of header-->
+
+           <!-- This is main content of page with form users can fill out, form includes name, email, message, and submit button-->
+        <form>
+            <div class="form-group">
+              <label for="exampleInputName">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name Here">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder= "Your Email Here">
+            </div>
+
+            <small id="emailHelp" class="form-text text-muted">We'll promise not share your email with anyone</small>
+
+            <label class="msg" for="validationTextarea">Message</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Your Message Here" required></textarea>
+
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Click here if you'd like to be contacted</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        <!-- End of form -->
+
+        <footer class= "center cont" style= "margin: 0 auto;">
+          Copyright &copy; 2020 Heather Nevarez
+      </footer>
+
+</body>
+</html>
